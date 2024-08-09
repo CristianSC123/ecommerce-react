@@ -1,6 +1,11 @@
-function App({name}) {
+import {API_URL} from "../env"
+
+function App() {
   return (
-    <h1>Hola {}</h1>
+    <div>
+      <h1>Hola {API_URL}</h1>
+      <p>Este es el sition en desarrollo</p>
+    </div>
   )
 }
 export default App
