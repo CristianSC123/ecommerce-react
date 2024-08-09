@@ -1,6 +1,6 @@
-function App() {
+function App({name}) {
   return (
-    <h1>Hola mundo</h1>
+    <h1>Hola {}</h1>
   )
 }
 export default App
