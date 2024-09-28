@@ -5,7 +5,7 @@ function Home() {
     <>
       <div>
         <h1>Hola {API_URL}</h1>
-        <p>Este es el sition en desarrollo</p>
+        <p>Este es el sitio en desarrollo</p>
       </div>
     </>
   )

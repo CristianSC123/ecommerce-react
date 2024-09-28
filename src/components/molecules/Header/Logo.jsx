@@ -1,9 +1,14 @@
+import { Link } from "react-router-dom";
+
 const Logo = () => {
   return (
-    <div>
-        <img src="https://static.vecteezy.com/system/resources/previews/028/054/883/non_2x/online-marketplace-logo-vector.jpg" alt="Logo ecommerce" />
+    <div className="logo bg-transparent">
+      <Link to="/">
+        <img src="/EDteam.png" alt="Logo ecommerce" style={{ width: '10em', height: 'auto' }} />
+      </Link>
     </div>
+
   )
 }
 
-export default Logo
+export default Logo;
